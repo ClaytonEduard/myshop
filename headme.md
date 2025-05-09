@@ -41,4 +41,12 @@ Este é um projeto React criado com o template TypeScript e utilizando `styled-c
 - **React** com suporte a TypeScript.
 - **Styled-components** para estilização.
 
+## Instalando o `react-icons`
+
+1. Para adicionar o pacote `react-icons` ao projeto, execute o seguinte comando:
+
+   ```bash
+   yarn add react-icons --save
+   ```
+
 Pronto! Agora você pode começar a desenvolver seu projeto React com TypeScript e styled-components.
