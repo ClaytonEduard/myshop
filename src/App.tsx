@@ -1,4 +1,5 @@
 import { Header } from "./components/Header/Header";
+import { ProductCard } from "./components/ProductCard/ProductCard";
 import { GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <>
       <Header />
       <GlobalStyles />
-      <h1>Welcome to React</h1>
+      <ProductCard />
     </>
   );
 }
