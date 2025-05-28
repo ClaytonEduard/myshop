@@ -11,7 +11,7 @@ export interface Product {
   discount?: number;
   popular?: boolean;
   onSale?: boolean;
-  rating?: [rate: number, count: number];
+  rating: [rate: number, count: number];
 }
 
 export const products: Product[] = [
