@@ -33,8 +33,12 @@ export const ButtonsWrapper = styled.div`
   align-items: center;
 `;
 
-export const AuthButton = styled.button`
-  background-color: #61dafb;
+interface AuthButtonProps {
+  isLogged: boolean;
+}
+
+export const AuthButton = styled.button<AuthButtonProps>`
+  background-color: ${(props) => (props.isLogged ? "#f44336" : "#61dafb")};
   border: none;
   border-radius: 5px;
   height: 30px;
